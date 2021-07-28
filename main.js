@@ -1,12 +1,20 @@
-let age = prompt("Ваш возраст: ");
-if (age < 18)
+let name = prompt("Как вас зовут?");
+
+switch(name)
 {
-    alert("Вали отсюда");
-}
-else if (age > 18 && age < 30)
-{
-    alert("Вы ещё не старый");
-}
-else{
-    alert("XZ");
+    case "Ann":
+    {
+        alert("Ann - so beautiful name!")
+        break;
+    }
+    case "Margo":
+        {
+            alert("Margo - The flower");
+            break;
+        }
+    default:
+        {
+            alert(" Go away!");
+            
+        }
 }
