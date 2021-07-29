@@ -5,10 +5,10 @@ let obj = {
 
 arr = [1, 2,3];
 
-for (let key in arr )
+arr.forEach(function(item, i , array)
 {
-   /*  console.log(obj['name']);
-    console.log(key); */
-    console.log(key);
-    // console.log(`Ключ ${key} значение ${obj[key]}`);
-}
+    console.log(`
+    Элемент ${item} 
+    Индекс ${i} 
+    Массив ${array}`);
+})
