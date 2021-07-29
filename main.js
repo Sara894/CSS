@@ -3,10 +3,12 @@ let obj = {
     'surname': 'Sunday'
 }
 
-for (let key in obj )
+arr = [1, 2,3];
+
+for (let key in arr )
 {
-    console.log(obj['name']);
+   /*  console.log(obj['name']);
+    console.log(key); */
     console.log(key);
-    console.log(obj[key]);
-    console.log(`Ключ ${key} значение ${obj[key]}`);
+    // console.log(`Ключ ${key} значение ${obj[key]}`);
 }
