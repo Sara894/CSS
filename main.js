@@ -17,9 +17,9 @@ let people = [
   },
 ];
 
-let a = people.find(function(item)
+let a = people.findIndex(function(item)
 {
-    if(item.name == "Ann") return item;
+    if(item.name == "Kate") return item;
 });
 
 console.log(a);
