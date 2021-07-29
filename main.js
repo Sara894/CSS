@@ -1,25 +1,8 @@
-let people = [
-  {
-    name: "Ann",
-    surname: "Sun",
-  },
-  {
-    name: "Kate",
-    surname: "Waterdrink",
-  },
-  {
-    name: "Alina",
-    surname: "Karinova",
-  },
-  {
-    name: "Maria",
-    surname: "Voitova",
-  },
-];
-
-let a = people.filter(function(item)
+let arr = [1, 2, 3, 4, 5, 6];
+/* let newArr = */ arr.map(function(item, i , array)
 {
-    if(item.name == "Kate") return item;
-});
+    console.log(`Элемент ${item}
+    Индекс ${i}
+    Массив ${array}`);
 
-console.log(a);
+});
