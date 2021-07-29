@@ -17,7 +17,7 @@ let people = [
   },
 ];
 
-let a = people.findIndex(function(item)
+let a = people.filter(function(item)
 {
     if(item.name == "Kate") return item;
 });
