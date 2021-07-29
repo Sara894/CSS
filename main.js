@@ -1,14 +1,25 @@
-let obj = {
-    'name':'Ann',
-    'surname': 'Sunday'
-}
+let people = [
+  {
+    name: "Ann",
+    surname: "Sun",
+  },
+  {
+    name: "Kate",
+    surname: "Waterdrink",
+  },
+  {
+    name: "Alina",
+    surname: "Karinova",
+  },
+  {
+    name: "Maria",
+    surname: "Voitova",
+  },
+];
 
-arr = [1, 2,3];
-
-arr.forEach(function(item, i , array)
+let a = people.find(function(item)
 {
-    console.log(`
-    Элемент ${item} 
-    Индекс ${i} 
-    Массив ${array}`);
-})
+    if(item.name == "Ann") return item;
+});
+
+console.log(a);
