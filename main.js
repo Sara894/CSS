@@ -1,4 +1,9 @@
-for (let i = 0; i< 7; i++)
+arr = [1, 2, 'JJJJ'];
+
+
+
+
+for (let i = 0; i< arr.length; i++)
 {
-    console.log(i);
+    console.log(arr[i]);
 }
