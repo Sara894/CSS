@@ -12,3 +12,10 @@ console.log(foo);
 
 /* Значит, нам ничего не мешает передавать функцию как параметр
 других функций */
+
+const runIt = function(fn){
+    console.log("Вызов через функцию runIt!");
+    return fn();
+}
+
+console.log(runIt(foo));
