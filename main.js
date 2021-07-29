@@ -1,9 +1,9 @@
-arr = [1, 2, 'JJJJ'];
+arr = [1, 2, 'JJJJ',4,5,'six'];
 
 
 
 
-for (let i = 0; i< arr.length; i++)
+for (let item of arr)
 {
-    console.log(arr[i]);
+    console.log(item*2);
 }
