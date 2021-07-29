@@ -1,8 +1,14 @@
-let arr = [];
+//callback функции
 
-for (let i = 0; i < 10; i+=3)
-{
-    arr.push(i);
+const foo = function(){
+    return "Hello, world!";
 };
 
-console.log(arr);
+//вызываем функцию и выводим результат в консоль
+console.log(foo());
+
+//выводим саму функцию в консоль 
+console.log(foo);
+
+/* Значит, нам ничего не мешает передавать функцию как параметр
+других функций */
