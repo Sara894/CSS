@@ -1,6 +1,7 @@
-var i = 0;
-while(i < 9)
-{
-    alert(i);
-    i++;
-}
+let i = 11;
+do{
+    alert("молодец! Умничка!");
+
+    
+    i--;
+}while(i >9)
