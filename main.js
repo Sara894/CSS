@@ -1,9 +1,12 @@
-arr = [1, 2, 'JJJJ',4,5,'six'];
+let obj = {
+    'name':'Ann',
+    'surname': 'Sunday'
+}
 
-
-
-
-for (let item of arr)
+for (let key in obj )
 {
-    console.log(item*2);
+    console.log(obj['name']);
+    console.log(key);
+    console.log(obj[key]);
+    console.log(`Ключ ${key} значение ${obj[key]}`);
 }
