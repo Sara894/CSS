@@ -1,7 +1,4 @@
-let i = 11;
-do{
-    alert("молодец! Умничка!");
-
-    
-    i--;
-}while(i >9)
+for (let i = 0; i< 7; i++)
+{
+    console.log(i);
+}
